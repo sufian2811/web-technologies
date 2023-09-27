@@ -92,3 +92,118 @@
   margin-top: -550px;
   transform: translate(30px, -5px);
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 345px;
+  grid-template-rows: 695px 695px 695px 695px;
+  gap: 88px;
+  top: 718px;
+  margin-top: 480px;
+}
+
+.work1 {
+  grid-row: 1 / 2;
+  width: Hug (327px);
+  height: Hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #DFE1E6, #DFE1E6);
+}
+
+.work2 {
+  grid-row: 2 / 3;
+  width: Hug (327px);
+  height: Hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #DFE1E6, #DFE1E6);
+}
+
+.work3 {
+  grid-row: 3/ 4;
+  width: Hug (327px);
+  height: Hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #DFE1E6, #DFE1E6);
+}
+
+.work4 {
+  grid-row: 4 / 5;
+  width: Hug (327px);
+  height: Hug (552px);
+  padding: 16px;
+  border-radius: 16px;
+  gap: 12px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #DFE1E6, #DFE1E6);
+}
+
+.cards {
+  transform: translate(0px, 90px);
+  width: Hug (327px);
+  height: 552px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px;
+  gap: 12px;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #DFE1E6, #DFE1E6);
+  border: 1px solid #DFE1E6
+}
+
+.cardimage {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+  transform: translate(-8px, -5px);
+}
+
+.cardtitle {
+  width: 295px;
+  height: 36px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172B4D;
+  transform: translate(0px, -20px);
+}
+
+.frame {
+  transform: translate(0px, -35px);
+}
+
+.carddetail {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+  transform: translate(0px, -45px);
+}
+
+.tags {
+  width: Hug (214px);
+  height: Hug (24px);
+  gap: 8px;
+  transform: translate(0px, -37px);
+}
+
+.action {
+  width: 295px;
+  height: 72px;
+  padding: 12px, 169px, 12px, 0px;
+  transform: translate(0px, -5px);
+}
