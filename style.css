@@ -207,3 +207,110 @@
   padding: 12px, 169px, 12px, 0px;
   transform: translate(0px, -5px);
 }
+
+.about {
+  display: grid;
+  grid-template-columns: 375px;
+  grid-template-rows: 530px 370px;
+  top: 3506px;
+  padding: 11px 24px 114px 24px;
+  gap: 24px;
+}
+
+.grid1 {
+  grid-row: 1 / 2;
+  width: 310px;
+  height: 346px;
+  gap: 12px;
+  margin-top: 95px;
+}
+
+.myself {
+  width: 327px;
+  height: 35px;
+  transform: translate(0px, -35px);
+  margin-bottom: -10px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #172B4D;
+}
+
+.myselfbody {
+  width: 327px;
+  height: 147px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+}
+
+.myselfconnect {
+  width: 117px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7F8CFF;
+}
+
+.myselflogo {
+  width: Hug (200px);
+  height: Hug (40px);
+}
+
+.myselfresume {
+  width: 132px;
+  height: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #6070FF;
+}
+
+.resumue {
+  width: 138px;
+  height: 24px;
+  transform: translate(0px, -22px);
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.grid2 {
+  width: 300px;
+  height: 464.15px;
+  margin-top: -85px;
+}
+
+.frame7 {
+  width: 327px;
+  height: 72px;
+  padding: 16px, 26px, 16px, 12px;
+}
+
+.fram9 {
+  width: 303px;
+  height: 66.72px;
+  padding: 9px, 12px, 9.72px, 12px;
+  border-radius: 8px;
+  background: #F7F7F9;
+}
+
+.fram8 {
+  width: 327px;
+  height: 72px;
+}
