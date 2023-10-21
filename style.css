@@ -25,6 +25,10 @@
   color: #6070FF;
 }
 
+.logofordesk {
+  display: none;
+}
+
 .iconlogo {
   align-self: flex-start;
   width: Hug (40px);
@@ -40,6 +44,10 @@
   display: flex;
   flex-direction: column;
   margin-left: -10px;
+}
+
+.headlinefordesk {
+  display: none;
 }
 
 .introdiv {
@@ -91,6 +99,10 @@
   align-self: flex-starts;
   margin-top: -550px;
   transform: translate(30px, -5px);
+}
+
+.containerfordesk {
+  display: none;
 }
 
 .container {
@@ -290,6 +302,10 @@
   text-align: center;
 }
 
+.grid2fordesk {
+  display: none;
+}
+
 .grid2 {
   width: 300px;
   height: 464.15px;
@@ -399,4 +415,220 @@
   color: #6070FF;
   margin-top: 10px;
   margin-left: 15px;
+}
+
+@media (min-width: 376px){
+.body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 72px;
+  padding: 16px, 143px, 16px, 143px;
+  margin-left: -70px;
+}
+
+.outerlogo {
+  align-self: flex-start;
+  width: 100px;
+  height: 40px;
+  top: 16px;
+  left: 143px;
+  padding: 10px, 12px, 10px, 12px;
+  transform: translate(150px, 30px);
+}
+.logoformob {
+  display: none;
+}
+
+.iconlogo {
+  background-image: url("Item\ Navigation.png");
+  transform: translate(940px, 10px);
+  align-self: center;
+  width: 258px;
+  height: 40px;
+  top: 16px;
+  left: 1039px;
+  gap: 8px;
+}
+
+.headline {
+  display: none;
+}
+
+.headlinefordesk {
+  display: block;
+}
+
+.logofordesk1 {
+  width: 1440px;
+  height: 846px;
+}
+
+.introdivfordesk {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 846px;
+  top: 71px;
+  padding: 289px, 260px, 289px, 260px;
+}
+
+.introtextfordesk {
+  align-items: flex-start;
+  width: 920px;
+  height: 122px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  transform: translate(350px, -600px);
+  color: #091E42;
+}
+
+.intro2fordesk {
+  align-items: flex-start;
+  width: 920px;
+  height: 98px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+  transform: translate(350px, -650px);
+}
+
+.connectfordesk {
+  width: 117px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7F8CFF;
+  transform: translate(350px, -660px);
+}
+
+.socialicondivfordesk {
+  width: 170.17px;
+  height: 20px;
+  left: 260px;
+  transform: translate(350px, -660px);
+}
+
+.container {
+  display: none;
+}
+
+.containerfordesk {
+  display: grid;
+  grid-template-columns: 1440px;
+  grid-template-rows: 670px 670px 670px 670px;
+  margin-right: -1020px;
+}
+
+.card1 {
+  grid-row: 1 / 2;
+  width: 1156px;
+  height: 496px;
+  transform: translate(100px, 150px);
+}
+
+.card2 {
+  grid-row: 2 / 3;
+  width: 1156px;
+  height: 496px;
+  transform: translate(100px, 150px);
+}
+
+.card3 {
+  grid-row: 3 / 4;
+  width: 1256px;
+  height: 596px;
+  transform: translate(50px, 150px);
+}
+
+.card4 {
+  grid-row: 4 / 5;
+  width: 1156px;
+  height: 496px;
+  transform: translate(100px, 150px);
+}
+
+.myself {
+  width: 447px;
+  height: 33px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091E42;
+  transform: translate(70px, 0px);
+}
+
+.myselfbody {
+  width: 447px;
+  height: 102px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344563;
+  transform: translate(65px, 20px);
+}
+
+.myselfconnect {
+  width: 117px;
+  height: 24px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7F8CFF;
+  transform: translate(65px, 10px);
+}
+
+.myselflogo {
+  width: Hug (200px);
+  height: Hug (40px);
+  transform: translate(50px, 10px);
+}
+
+.myselfresume {
+  width: Hug (162px);
+  height: Hug (48px);
+  padding: 12px;
+  border-radius: 8px;
+  gap: 10px;
+  color: #6070FF;
+  border: 1px solid #6070FF;
+  transform: translate(50px, 10px);
+}
+
+.grid2 {
+  display: none;
+}
+
+.grid2fordesk {
+  display: grid;
+}
+
+.lang {
+  transform: translate(570px, -450px);
+}
 }
